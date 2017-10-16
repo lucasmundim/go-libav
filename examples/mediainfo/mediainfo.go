@@ -3,6 +3,7 @@
 // Tested with
 //
 // $ go run examples/mediainfo/medianfo.go --input=https://bintray.com/imkira/go-libav/download_file?file_path=sample_iPod.m4v
+// $ GODEBUG=cgocheck=0 go run examples/mediainfo/mediainfo.go --input=fixtures/sample_mpeg4.mp4
 //
 // stream 0: eng aac audio, 2 channels, 44100 Hz
 // stream 1: h264 video, 320x240
